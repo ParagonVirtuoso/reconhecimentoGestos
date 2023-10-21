@@ -23,4 +23,4 @@ ficando assim "pose/hand/pose_deploy.prototxt" e "pose/hand/pose_iter_102000.caf
 
 1. Abra o terminal na pasta raiz do projeto
 2. Execute o comando `python camDetector.py` para executar o projeto com a câmera do computador e realizar gestos com a mão para indentificar a letra em libras.
-3. Execute o comando `python imageDetector.py` para executar o projeto com uma imagem com gestos de mão para indentificar a letra em libras e posição da mão e dedos.
+3. Execute o comando `python imageDetector.py` para executar o projeto com uma imagem com gestos de mão para indentificar a letra em libras e posição da mão e dedos em imagem = cv2.imread("imagens/hand/Libras/B.JPG") na linha 33 do arquivo imageDetector.py pode ser alterado para qualquer imagem que esteja na pasta imagens/hand/Libras/ ou qualquer outra pasta que tenha imagens de mão com gestos.
